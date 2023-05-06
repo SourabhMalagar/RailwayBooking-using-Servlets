@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<fieldset>
+<form action="register" method="post">
+<center>
+<h2>Registration</h2>
+<table>
+<tr>
+<td><label for="fn">First Name</label></td>
+<td><input type="text" id="fn" name="First_Name" required="required"></td>
+</tr>
+
+<tr>
+<td><label for="ln">Last Name</label></td>
+<td><input type="text" id="ln" name="Last_Name" required="required"></td>
+</tr>
+
+<tr>
+<td><label for="mn">Mobile Number</label></td>
+<td><input type="tel" id="mn" name="Mobile_Number" pattern="[0-9]{10}" required="required"></td>
+</tr>
+
+<tr>
+<td><label for="ei">Email-ID</label></td>
+<td><input type="email" id="ei" name="Email_ID" required="required"></td>
+</tr>
+
+<tr>
+<td><label for="g">Gender</label></td>
+<td><input type="radio" id="g" name="Gender" value="Male">Male
+    <input type="radio" id="g" name="Gender" value="Female">Female
+    <input type="radio" id="g" name="Gender" value="Others">Others</td>
+</tr>
+
+<tr>
+<td><label for="db">Date Of Birth</label></td>
+<td><input type="date" id="db" name="Date_Of_Birth" required="required"></td>
+</tr>
+
+<tr>
+<td><label for="ad">Address</label></td>
+<td><textarea name="Address" id="ad" cols="20" rows="10" required="required"></textarea></td>
+</tr>
+
+<tr>
+<td><label for="cp">Create Password</label></td>
+<td><input type="password" id="cp" name="Create_Password" required="required"></td>
+</tr>
+
+<tr>
+<td><label for="cnp">Confirm Password</label></td>
+<td><input type="password" id="cnp" name="Confirm_Password" required="required"></td>
+</tr>
+
+<tr>
+<td><button type="Create Account">Create Account</button></td>
+<td><button type="reset">Cancel</button></td>
+<td><button type="Login">Login</button></td>
+</tr>
+</table>
+</center>
+</fieldset>
+</form>
+</fieldset>
+<br>
+<center>
+<a href="Login.html">Already Have Account? Click Here To Login</a>
+<br>
+<br>
+<a href="Home.html"><button>Home</button></a>
+</center>
+</body>
+</html>
